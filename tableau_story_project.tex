@@ -36,6 +36,9 @@ to version 1}}
 \href{https://public.tableau.com/profile/neil.seas#!/vizhome/UdacityFinalProjectv2/Story1}{\bf{Link
 to version 2}}
 
+\href{https://public.tableau.com/profile/neil.seas#!/vizhome/UdacityFinalProjectv3/Story1}{\bf{Link
+to version 3}}
+
 \section{Design}
 My first design decision was to incorporate geospatial data in order to better
 visualize how cancellation rates vary across the United States.  In the
@@ -43,6 +46,33 @@ visualizations I used both Number of Flights and Cancellation Rate to reflect
 the scale of activity.  I believe this choice facilitates quickly identifying
 both the most active airports and airports/airlines with relatively higher
 cancellation rates.
+
+In the first visualization I chose to use a map to show the cancellation rate by
+the airport of origin.  To make this visualization more clean, I chose to filter
+the data to only airports with at least 50,000 flights.  I chose a diverging
+color palette because the majority of the cancellation rate range is quite
+narrow.  The information in the tool tips is provided for airport specific
+detail, while the legends are provided to provide information about the meaning
+of bubble sizes and color.
+
+For the second visualization I chose a box-plot because I wanted to show both
+the distribution of cancellation rates for the carriers, but also to highlight
+any outliers.  I chose to also have the size of the dots indicate the size of
+the carrier (number of flights).
+
+The third visualization provides similar information to the box-plot, but I felt
+that looking at the information in a scatter-plot really highlighted the higher
+cancellation rate airlines.  I think it also makes clear that there is a general
+trend of larger airlines (by number of flights) having worse performance in
+terms of cancellation rate with the clear exception of Southwest.
+
+For the last visualization I returned to using a map to demonstrate that the
+poor performers had high cancellation rates regardless of airport.  When
+filtered to the six airlines identified in the prior visualizations the impact
+of seeing mostly red on the map would allow the reader to quickly draw the
+intended conclusion.
+
+
 
 One change incorporated from the feedback I received was to remove information
 that was not contributing to the desired take-away from the visualization.  In
